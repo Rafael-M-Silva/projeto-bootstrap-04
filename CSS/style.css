@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Lobster', cursive;
+}
+
+.navbar-brand:hover{
+    color: black;
+}
+
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: 'Rubik', sans-serif;
+    border: 2px solid rgb(248, 26, 92 );
+}
+
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(248, 26, 92 );
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+
+.main{
+    background: url(../img/received_1743261605521372.jpeg);
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 26, 92 );
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    transition: 0.5s;
+}
+
+.btn1:hover{
+    background-color: rgb(182, 18, 67);
+}
+
+h1{
+    font-weight: 700;
+}
+
+.card{
+    transition: 0.5s;
+}
+
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+}
+
+.apple{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+    background-image: url(../img/estilo-de-vida-saudavel-e-conceito-de-esporte-mulher-atraente-sorridente-comendo-maca.jpg);
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+
+.apple h1{
+    font-family: 'Lobster', cursive;
+}
